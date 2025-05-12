@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>앱 목업</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="phone">
+        <div class="screen" id="main-content">
+            <!-- 초기 화면 내용 -->
+            <p>버튼을 눌러 기능을 선택하세요.</p>
+        </div>
+        <div class="nav-bar">
+            <button id="btn-alarm">하차 알림</button>
+            <button id="btn-setting">하차 설정</button>
+            <button id="btn-charge">충전</button>
+            <button id="btn-map">지도</button>
+        </div>
+        <button class="btn-scan" id="btn-scan">🔍</button>
+
+        <!-- 알림 div를 .phone 안으로 이동 -->
+        <div class="notification" id="notification-popup">
+            알림 메시지
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
